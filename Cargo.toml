@@ -1,0 +1,15 @@
+[package]
+name = "uproc"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fuser = {version = "0.12", features = ["abi-7-31"]}
+serde = { version = "1.0.171", features = ["derive"] }
+log = "0.4.6"
+libc = "0.2.51"
+clap = { version = "3.0", features = ["cargo"] }
+env_logger = "0.9"
